@@ -1,4 +1,4 @@
-import CpBaseElement from '../cp-base-element/dist/compiled/cp-base-element';
+import CpBaseElement from 'cp-base-element/dist/compiled/cp-base-element';
 
 const template = `
   <style>
