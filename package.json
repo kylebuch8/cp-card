@@ -28,6 +28,6 @@
     "polymer-build": "^2.0.0"
   },
   "dependencies": {
-    "cp-base-element": "0.0.5"
+    "cp-base-element": "0.0.6"
   }
 }
