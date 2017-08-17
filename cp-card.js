@@ -1,4 +1,5 @@
 import CpBaseElement from 'cp-base-element/dist/compiled/cp-base-element';
+import './cp-card-styles';
 
 const template = `
   <style>

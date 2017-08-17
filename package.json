@@ -9,12 +9,11 @@
   "main": "index.js",
   "scripts": {
     "prepublish": "./node_modules/.bin/gulp",
-    "postinstall": "./node_modules/.bin/gulp",
     "build": "./node_modules/.bin/gulp"
   },
   "author": "Kyle Buchanan",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
@@ -23,7 +22,12 @@
     "gulp-babel": "^6.1.2",
     "gulp-html-minifier": "^0.1.8",
     "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
     "gulp-uglify": "^3.0.0",
     "polymer-build": "^2.0.0"
+  },
+  "dependencies": {
+    "cp-base-element": "0.0.5"
   }
 }
